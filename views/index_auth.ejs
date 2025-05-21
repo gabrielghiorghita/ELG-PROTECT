@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta requerido para la correcta visualización en dispositivos móviles y compatibilidad con navegadores -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título de la página, importante para el SEO -->
+    <title>ELG SIEM PROTECT -- Soluciones de ciberseguridad para empresas</title>
+    
+       <!-- Descripción de la página, importante para el SEO -->
+	<meta name="description" content="En ELG SIEM PROTECT ofrecemos soluciones avanzadas de ciberseguridad basadas en sistemas SIEM de código abierto. 
+    Monitorizamos, analizamos y respondemos a amenazas en tiempo real para proteger los activos digitales de empresas y organizaciones. 
+    Descubre cómo mejorar tu seguridad informática con nuestras herramientas profesionales, recursos formativos y soporte experto.">
+
+	<!-- Palabras clave, útiles para herramientas de SEO -->
+	<meta name="keywords" content="SIEM, Ciberseguridad, Seguridad informática, Código abierto, Detección de amenazas, 
+    Respuesta a incidentes, Análisis de logs, Monitoreo de seguridad, Herramientas SIEM, 
+    SOC, ELG SIEM PROTECT, Protección de datos, SIEM open source, Firewall, IDS, 
+    Auditoría de seguridad, Consultoría en ciberseguridad">
+
+    
+    <!-- Enlace a la hoja de estilos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
+    
+    <!-- Enlace a tu hoja de estilos personalizada -->
+    <link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+	<link rel="icon" type="image/png" href="/img/logo.png">
+
+</head>
+<body>
+    <!-- Contenido de la página -->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark header-gradient">
+		  <div class="container">
+			<div class="logo-container">
+				<a class="navbar-brand logo-zoom" href="index_auth">
+				  <img src="/img/logo.png" alt="Viper3D">
+				</a>
+				<div id="led-indicator">
+				  <i class="fas fa-user status-indicator green-icon"></i>
+				  <span class="nav-link">Hola, <%= username %></span>
+				</div>
+			</div>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+			  <ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="/tienda_auth">Tienda</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/servicios_auth">Servicios</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/about_auth">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/contact_Auth">Contacto</a>
+				</li>
+				<li class="nav-item nav-link " id="Logout">
+					<span class="login-text"> Cerrar sesión </span>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+	  </header>
+
+				  
+	  <div id="custom-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-9">
+					<div class="content-box"> 
+						<img src="img/viper3d.png" alt="Foto de inicio Viper3D" class="img-fluid">
+					</div>
+				</div>
+			</div>
+			<!-- Introducción de la Página -->
+			<section class="bg-black text-white py-5">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-10">
+							<h1 class="text-center mb-3">Bienvenido a ELG PROTECT</h1>
+							<p class="lead text-center mb-4">
+								Buscas aumentar la seguridad de tu empresa? Quieres tener todo bajo control? Infórmate más sobre nosotros, ¡Encontrarás eso y mucho más!
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+	
+		</div>
+	</div>
+	
+	
+	<div class="container-fluid bg-deg-down">
+	</div>
+	
+	<div class="container mt-4 mb-4 p-4 center">
+		<div class="row justify-content-center">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-4">
+				<div class="card-overlay">
+					<img src="/img/bombillaindice.png" alt="Imagen de servicios" class="card-image">
+					<div class="card-description">
+						<h4 class="card-title">Dudas por si tu empresa es segura?</h4>
+						<p class="card-text">Contactanos, nosotros lo hacemos por ti.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-4">
+				<div class="card-overlay">
+					<img src="/img/carrito.png" alt="Imagen de productos" class="card-image">
+					<div class="card-description">
+						<h4 class="card-title">Servicios</h4>
+						<p class="card-text">Echa un vistazo a nuestros packs ajustables a tus necesidades y presupuesto.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-4">
+				<div class="card-overlay">
+					<img src="/img/eco.png" alt="Imagen de pedidos" class="card-image">
+					<div class="card-description">
+						<h4 class="card-title">Sostenibilidad y concientes con el medio abiente</h4>
+						<p class="card-text">Somos una empresa eco!.</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<hr class="mt-5">
+		<div class="row justify-content-center">
+			<div class="container py-4">
+				<h2 class="text-center mb-4">¡No te pierdas nada!</h2>
+				<div class="row justify-content-center text-center">
+		
+					<!-- Tarjeta para TikTok -->
+					<div class="col-md-6">
+						<div class="card mb-3 social-card bg-dark text-white">
+							<div class="card-img-wrapper">
+								<img src="/img/logotiktok.png" alt="imagen para TikTok" class="platform-logo img-fluid">
+							</div>
+							<div class="card-body">
+								<img src="/img/logorelleno.png" alt="perfil de TikTok" class="account-logo img-fluid">
+								<h5 class="card-title">@elgprotect</h5>
+								<a href="https://www.tiktok.com/@elgsiemprotect" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">Síguenos en TikTok</a>
+							</div>
+						</div>
+					</div>
+		
+					<!-- Tarjeta para Instagram -->
+					<div class="col-md-6">
+						<div class="card mb-3 social-card bg-dark text-white">
+							<div class="card-img-wrapper">
+								<img src="/img/logoinstagram.png" alt="imagen para Instagram" class="platform-logo img-fluid p-3">
+							</div>
+							<div class="card-body">
+								<img src="/img/logorelleno.png" alt="perfil de Instagram" class="account-logo img-fluid">
+								<h5 class="card-title">@elgprotect</h5>
+								<a href="https://www.instagram.com/elgsiemprotect/" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">Síguenos en Instagram</a>
+							</div>
+						</div>
+					</div>
+		
+				</div>
+	
+				<div class="row justify-content-center text-center">
+					<div class="col-md-6">
+						<div class="card mb-3 social-card bg-dark text-white">
+							<div class="card-img-wrapper">
+								<img src="/img/logoyoutube.png" alt="imagen para youtube" class="platform-logo img-fluid p-3">
+							</div>
+							<div class="card-body">
+								<img src="/img/logorelleno.png" alt="canal de youtube" class="account-logo img-fluid">
+								<h5 class="card-title">@elgprotect</h5>
+								<a href="https://www.youtube.com/@elgsiemprotect" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">Síguenos en Youtube</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</div>
+	
+	<div class="container-fluid bg-deg-up">
+	</div>
+	
+	<div class="container-fluid adaptive-container bg-black p-4">
+		<div class="row respetar-degradado">
+			<!-- Sección de categorías -->
+			<div class="col-lg-4 mb-3">
+				<div class="muestra-prod rounded p-3">
+					<h3 class="text-white text-center mb-3">Encuentra lo que buscas</h3>
+					<div id="categorias" class="categorias-container">
+						<!-- Aquí irán las categorías que se cargarán con JavaScript -->
+					</div>
+				</div>
+			</div>
+	
+	<!-- Sección de novedades -->
+	<div class="col-lg-8 mb-3">
+		<div class="muestra-prod rounded p-3 mb-3">
+			<div class="row justify-content-between align-items-center text-white mb-3">
+				<div class="col text-center">
+					<h3>Novedades</h3>
+				</div>
+				<div class="col-auto">
+					<a href="/tienda" class="btn btn-outline-light">Visitar Tienda</a>
+				</div>
+			</div>
+			<div id="novedades">
+				<!-- Aquí irán las tarjetas de productos que se cargarán con JavaScript -->
+			</div>
+		</div>
+	</div>
+	
+	<hr class="mt-5 text-white">
+	
+		<h2 class="text-center text-white mb-4">¿Opciones de compra?</h2>
+	
+		<section aria-label="Métodos de Envío Disponibles">
+			<div class="container">
+				<div class="row">
+					<!-- Primera tarjeta para Wallapop -->
+					<div class="col-lg-6 col-md-12 mb-4">
+						<div class="card bg-dark">
+							<img src="img/fotowallapop.png" alt="Entregas rápidas y seguras en España con Wallapop" class="card-img-top">
+							<div class="card-body text-white">
+								<h3 class="card-title">Suscripción mensual o anual!</h3>
+								<p>Nuestros servicios están disponibles para todo el mundo. Te ofrecemos:</p>
+								<ul class="list-unstyled">
+									<li><i class="bi bi-truck text-success"></i> Respuestas rápidas y personalizadas.</li>
+									<li><i class="bi bi-geo-alt text-success"></i> Seguimiento detallado del monitoreo de tu empresa.</li>
+									<li><i class="bi bi-headset text-success"></i> Soporte al cliente dedicado en español.</li>
+									<li><i class="bi bi-wallet2 text-success"></i> Facilidades para remediar ataques y vulnerabilidades detectadas.</li>
+								</ul>
+								<div class="d-flex justify-content-center mt-4">
+									<a href="https://itb.cat" class="btn btn-outline-light center" target="_blank" rel="noopener noreferrer">Visitar nuestro centro de trabajo</a>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+		
+					<!-- Segunda tarjeta para Etsy -->
+					<div class="col-lg-6 col-md-12 mb-4">
+						<div class="card bg-dark">
+							<img src="img/imagenTienda.png" alt="Opciones de envío internacionales flexibles con Etsy" class="card-img-top">
+							<div class="card-body text-white">
+								<h3 class="card-title">Pide una evaluación de tu empresa GRATIS!</h3>
+								<p>Para saber exactamente el perfil que tienes hacemos esta evaluación para:</p>
+								<ul class="list-unstyled">
+									<li><i class="bi bi-globe2 text-success"></i> Saber que tipo de red informatica debemos proteger.</li>
+									<li><i class="bi bi-box-seam text-success"></i> Buscar el mejor plan que se pueda adaptar al nivel de usuarios y datos manejados.</li>
+									<li><i class="bi bi-shield-check text-success"></i> Tener la menor probabilidad de padecer un ataque.</li>
+									<li><i class="bi bi-broadcast text-success"></i> Acordar necesidades extra para su caso.</li>
+								</ul>
+								<div class="d-flex justify-content-center mt-4">
+									<a href="https://localhost:3000/contact" class="btn btn-outline-light center" target="_blank" rel="noopener noreferrer">Contactar</a>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+			
+		
+		<hr class="mt-5 text-white">
+	
+	<!-- Título centrado y relevante para SEO -->
+	<h2 class="text-center text-white mb-4">Convierte tu empresa en un sitio seguro</h2>
+	
+<div class="container">
+	<div class="row justify-content-center">
+		<!-- Tarjeta informativa sobre SIEM de código abierto -->
+		<div class="col-lg-6 col-md-12 mb-4">
+			<div class="card bg-dark">
+				<!-- Imagen representativa con alt optimizado -->
+				<img src="img/siem_open_source.png" alt="Plataforma SIEM de código abierto para ciberseguridad" class="card-img-top img-fluid">
+				<div class="card-body text-white">
+					<!-- Título relevante para SEO -->
+					<h3 class="card-title">Soluciones SIEM de Código Abierto</h3>
+					
+					<!-- Contenido enfocado a seguridad y open source -->
+					<p>En ELG SIEM PROTECT trabajamos con soluciones SIEM basadas en software de código abierto, garantizando seguridad, flexibilidad y transparencia:</p>
+					
+					<ul class="list-unstyled">
+						<li><i class="bi bi-check-circle-fill text-success"></i> Detección y respuesta ante amenazas en tiempo real.</li>
+						<li><i class="bi bi-check-circle-fill text-success"></i> Integración con herramientas de análisis forense y monitoreo.</li>
+						<li><i class="bi bi-check-circle-fill text-success"></i> Tecnología open source personalizable y segura.</li>
+						<li><i class="bi bi-check-circle-fill text-success"></i> Soporte a empresas que buscan independencia tecnológica.</li>
+					</ul>
+
+					<p>Transforma tu enfoque de seguridad con una solución SIEM robusta y transparente. ¡Empieza hoy con ELG SIEM PROTECT!</p>
+					
+					<!-- Botón de acción -->
+					<div class="d-flex justify-content-center mt-4">
+						<a href="quienes_somos.html" class="btn btn-outline-light center">Conoce nuestro proyecto</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+	
+	  <footer class="footer-gradient py-3">
+		<div class="container mt-4">
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<h5>Acerca de ELG PROTECT</h5>
+					<p>Somos una empresa que busca integrar la seguridad en la vida cotidiana de todas las empresas a través de nuestro SIEM.</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<h5>Enlaces rápidos</h5>
+					<ul class="list-unstyled">
+						<li><a href="/">Inicio</a></li>
+						<li><a href="/tienda_auth">Tienda</a></li>
+						<li><a href="/servicios_auth">Servicios</a></li>
+						<li><a href="/about_auth">Sobre Nosotros</a></li>
+						<li><a href="/contact_auth">Contacto</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 text-center">
+					<h5>Síguenos en redes sociales</h5>
+					<ul class="list-unstyled list-inline">
+						<li class="list-inline-item">
+							<a href="https://www.youtube.com/@elgprotect" class="social-icon" target="_blank" rel="noopener noreferrer">
+								<i class="fab fa-youtube"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.tiktok.com/@elgprotect" class="social-icon" target="_blank" rel="noopener noreferrer">
+								<i class="fab fa-tiktok"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.instagram.com/elgprotect/" class="social-icon" target="_blank" rel="noopener noreferrer">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.facebook.com/profile.php?id=61552051646865" class="social-icon" target="_blank" rel="noopener noreferrer">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>&copy; 2025 ELG Company. Todos los derechos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+		<!-- Biblioteca jQuery, requerida por Bootstrap -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		
+		<!-- Biblioteca Popper.js, requerida por Bootstrap para algunos componentes -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+		
+		<!-- Biblioteca de JavaScript de Bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+	
+		<script src="/js/main_auth.js"></script>
+		<script src="/js/index_productos.js"></script>
+
+	</body>
+	</html>
+	
